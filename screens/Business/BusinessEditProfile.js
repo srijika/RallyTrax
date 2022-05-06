@@ -324,7 +324,7 @@ export default function BusinessEditProfile({ navigation }) {
                   onBlur={onBlur}
                   onChangeText={onChange}
                   value={value}
-                  placeholder='Moble Number'
+                  placeholder='Moblie Number'
                   placeholderTextColor={isFocused.mobile_number ? "gray" : "white"}
                   onFocus={() => handleInputFocus('mobile_number')}
                   onBlur={() => handleInputBlur('mobile_number')}

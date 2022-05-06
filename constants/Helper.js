@@ -1,9 +1,11 @@
 import { Dimensions, PixelRatio, Platform } from "react-native";
 
-//export const BASEURL = "http://192.168.29.10:9500/api/";
 
 //export const BASEURL = "http://nodetest.plenumnetworks.com/api/"; //  latest backend
-export const BASEURL = "http://rallytrax.plenumnetworks.com/api/"; //  latest backend
+// export const BASEURL = "http://rallytrax.plenumnetworks.com/api/"; //  latest backend
+// export const BASEURL = "http://192.168.29.10:9500/api/";
+export const BASEURL = "http://192.168.29.211:9500/api/";
+
 
 export const isEmpty = ['', undefined, 'undefined', null];
 

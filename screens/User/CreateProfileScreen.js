@@ -276,7 +276,7 @@ export default function CreateProfileScreen({ navigation }) {
                   onBlur={onBlur}
                   onChangeText={onChange}
                   value={value}
-                  placeholder='Moble Number'
+                  placeholder='Mobile Number'
                   placeholderTextColor={isFocused.mobile_number ? "gray" : "white"}
                   onFocus={() => handleInputFocus('mobile_number')}
                   onBlur={() => handleInputBlur('mobile_number')}
